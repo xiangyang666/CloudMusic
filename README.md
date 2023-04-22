@@ -1,4 +1,4 @@
-# 项目名称：网易云音乐 [在线预览地址](http://xiangyang666.gitee.io/cloud-music)
+# 项目名称：网易云音乐 [在线预览地址](http://xiangyang.web3v.work/)
 
 # 项目介绍
 > 仿PC端网易云音乐桌面端，目前实现了页面基本样式，播放，歌词，歌单，专辑，歌手，视频，下载，搜索，登录，收藏，查看评论等基础功能
@@ -64,7 +64,7 @@ node app.js
 ![](public/readme/19.png)
 ![](public/readme/5.png)
 ![](public/readme/6.png)
-![](public/readme/7.png)
+
 ![](public/readme/8.png)
 ![](public/readme/9.png)
 
