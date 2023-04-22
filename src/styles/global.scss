@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  font-family: 'myfont';
+}
+
+label,
+a,
+p,
+span,
+div {
+  font-family: 'myfont';
+}
+
+
+html,
+body,
+#app {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background-color: var(--bgc);
+  transition: all .2s;
+  /*禁止用户选中*/
+  /*user-select: none;*/
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+
+/**
+    两条斜杠注释，会让后面scss样式不生效，使用当前这个注释即可
+    
+*/
+
+/**
+  给所有icon图标加上鼠标以上出现小手
+*/
+.iconfont {
+  cursor: pointer;
+}
+
+/* 单行文字出现省略号 */
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+:root {
+  --bg: #fff;
+  --text-color: #000;
+  --link-color: #0033cc;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--bg);
+}
+
+body a {
+  color: var(--link-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #000000;
+    --text-color: #ffffff;
+    --link-color: #fd2727;
+  }
+}

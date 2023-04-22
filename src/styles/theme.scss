@@ -1,0 +1,114 @@
+/* 定义全局主题 */
+/* 白天主题 */
+:root {
+  // hearder颜色
+  --hc: var(--tc); // headerColor
+  /* 本项目主题色 */
+  --tc: #EC4141; // themeColor
+  // 背景色
+  --bgc: #fff; // background-color
+  // 字体颜色
+  --c: #000; // color
+  // 侧边栏hover颜色
+  --aside: #e0e0e0;
+  // element-tabs下划线样式
+  --ele-tabs-border: #ff6464;
+  // hover表格每一tr的样式
+  --table-hover: var(--tc);
+  // hover收藏者
+  --collector-hover: #e6e6e6;
+  // 首页推荐歌单文字
+  --home-recommend: linear-gradient(315deg, #f05353 25%, #5732fb);
+  //首页侧边菜单栏的激活文字颜色
+  --home-menu: #ff7575;
+  // 视频相关的视频
+  // 视频时长背景
+  --about-videotime: rgba(0, 0, 0, .3);
+  // 文字颜色
+  --about-color: #fff;
+  // -----------------------------------------------------------
+  // 视频评论相关
+  // 边框线
+  --c-border: #a3a3a3;
+  // 限制评论次数文字
+  --c-c: #c0c0c0;
+  // 评论背景色
+  --c-bgc: #fff;
+  // 输入框的文本的值
+  --c-text: #000000;
+  // 输入框placeholder文字颜色
+  --c-ph: #949393;
+  // -----------------------------------------------------------
+  // 评论组件的下边框线颜色
+  --comment-bottom-color: #dedede;
+  // audio组件的盒子阴影颜色
+  --audio-box-shadow: #5e5e5e;
+  // 关于我们中的邮箱颜色
+  --about-email-color: #ff4141;
+  // 标签选中颜色
+  --label-color: #fdf5f5;
+  // 歌手详情页的专辑组件中的表格odd元素背景元素颜色
+  --album-tabel-color: #f9f9f9;
+  // 移入后的背景颜色
+  --album-hover-color: #f0f0f0;
+  // 页面进度条（渐变）
+  --page-progress-bar-start: #f88888;
+  --page-progress-bar-end: #7f3ace;
+}
+
+/* 深夜主题 */
+:root[theme='dark'] {
+  // hearder颜色
+  --hc: var(--tc); // headerColor
+  /* 本项目主题色 */
+  --tc: #EC4141; // themeColor
+  // 背景色
+  --bgc: #1c1e21; // background-color
+  // 字体颜色
+  --c: #fff; // color
+  // 侧边栏hover颜色
+  --aside: #f55b5b;
+  // element-tabs下划线样式
+  --ele-tabs-border: #409eff;
+  // hover表格每一tr的样式
+  --table-hover: #60ff97;
+  // hover收藏者
+  --collector-hover: #4e4848;
+  // 首页推荐歌单文字
+  --home-recommend: linear-gradient(315deg, #42d392 25%, #647eff);
+  //首页侧边菜单栏的激活文字颜色
+  --home-menu: #2c81ff;
+  // 视频相关的视频
+  // 视频时长背景
+  --about-videotime: rgb(189 55 55 / 50%);
+  // 文字颜色
+  --about-color: #fff;
+  // -----------------------------------------------------------
+  // 视频评论相关
+  // 边框线
+  --c-border: #fff;
+  // 限制评论次数文字
+  --c-c: #c6c6c6;
+  // 评论背景色
+  --c-bgc: #565656;
+  // 输入框的文本的值
+  --c-text: #fff;
+  // 输入框placeholder文字颜色
+  --c-ph: #8d8d8d;
+  // -----------------------------------------------------------
+  // 评论组件的下边框线颜色
+  --comment-bottom-color: #343434;
+  // audio组件的盒子阴影颜色
+  --audio-box-shadow: #808080;
+  // 关于我们中的邮箱颜色
+  --about-email-color: #6ac2ff;
+  // 标签选中颜色
+  --label-color: #787878;
+  // 歌手详情页的专辑组件中的表格odd元素背景元素颜色
+  --album-tabel-color: #373737;
+  // 移入后的背景颜色
+  --album-hover-color: #555555;
+  // 页面进度条（渐变）
+  --page-progress-bar-start: #38acf0;
+  --page-progress-bar-end: #6efd94;
+}

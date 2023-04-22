@@ -1,0 +1,17 @@
+/* 
+  css入口文件
+*/
+/* 重置元素默认样式 */
+@import './reset.css';
+
+/* icon图标 */
+@import './icon/iconfont.css';
+
+/* 自定义字体 */
+@import './font.css';
+
+/* 全局样式 */
+@import './global.scss';
+
+/* 添加动画css文件 */
+@import './animation.css';

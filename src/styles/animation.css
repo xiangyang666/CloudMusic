@@ -1,0 +1,56 @@
+/*
+  本模块是所以元素动画的集合
+*/
+
+/* 歌词组件中的指针动画 */
+@keyframes needle {
+  0% {
+    transform: rotate(-20deg);
+  }
+
+  100% {
+    transform: rotate(10deg);
+  }
+}
+
+@keyframes needle2 {
+  0% {
+    transform: rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(-20deg);
+  }
+}
+
+/* 指针播放动画 */
+.needle-animation {
+  animation: needle .7s ease forwards;
+}
+
+/* 指针暂停动画 */
+.needle2-animation {
+  animation: needle2 .7s ease forwards;
+}
+
+
+/* 歌词组件中的CD动画 */
+@keyframes cd {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* cd旋转 */
+.cd-animation {
+  animation: cd 20s linear 0s infinite;
+}
+
+/* cd原地暂停 */
+.cd-animation2 {
+  animation: cd 20s linear 0s infinite paused;
+}
